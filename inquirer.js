@@ -3,6 +3,12 @@ const fs = require ('fs');
 const inquirer = require('inquirer');
 const mysql2 = require('mysql2');
 const console_table = require('console.table');
+const Department = require('./lib/query.js');
+const Roles = require('./lib/query.js');
+const Employees = require('./lib/query.js');
+const Manager = require('./lib/query.js');
+const SeeBudget = require('./lib/query.js');
+
 const { Console } = require('console');
 
 let department = []
@@ -108,7 +114,7 @@ const newQ = [
         type:'input',
         name:'department',
         message:`What is the name of the department?`,
-        default:'Baki Hanma'
+        default:'Sales'
     },
 ];
 inquirer.prompt(newQ)
