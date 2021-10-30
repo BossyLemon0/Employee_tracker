@@ -42,7 +42,7 @@ I looked into other peoples code to try and help me figure out some of my bugs. 
 
 [Jason GitHub](https://github.com/jasonluxie)
 
-[Jessica GitHub](hhttps://github.com/jessicamcg)
+[Jessica GitHub](https://github.com/jessicamcg)
 
 
 
