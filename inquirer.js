@@ -166,6 +166,7 @@ const newQ = [
 ];
 inquirer.prompt(newQ)
 .then((answers)=>{ 
+
     depid++;
     const dep = {
         id: depid,
@@ -363,10 +364,18 @@ function addEmp(){
                ismanager.push({"name":`${answers.managers}`, "id": managernum })
                 }
             if( answers.managers == "none"){
-                ismanager.push(null);
+                ismanager.push('none');
                     }
+
+                    let m = answers.managers;
+        let manid = ismanager.filter(function(string){
+            console.log(string)
+        if(string.id == m){
+             return string.id
+            }
+        });
                 
-            const addanEmp = new Employees(answers.firstname, answers.lastname, role_id[emprole],)
+            const addanEmp = new Employees(answers.firstname, answers.lastname, role_id[emprole], manid)
             addanEmp.add();
             
             console.log(`Added ${answers.firstname} as a/an ${answers.role} `);
