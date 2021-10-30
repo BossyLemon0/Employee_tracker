@@ -19,7 +19,9 @@ This project allows anyone who runs a business, works in one, or people who just
 ## Installation
 
 In order to install this application you are going to need to download the necessary packages, set up the database, and run inquirer command. 
-To set up the data base you are going to want to go into the lib folder and go into the query.js file. At the top open the db constant. Once you see the whole object fill in your credentials. Then open the terminal in the db file, log into your mysql, then run source index.sql. You should be all set afterwards.
+To set up the data base you are going to want to go into the lib folder and go into the query.js file. At the top open the db constant, once you see the whole object fill in your credentials. Then open the terminal in the db file, log into your mysql, then run source index.sql. You should be all set afterwards.
+
+![sql login helper](./pictures/loginGuide.png)
 
 ```
 nmp i
