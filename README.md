@@ -19,10 +19,15 @@ This project allows anyone who runs a business, works in one, or people who just
 ## Installation
 
 In order to install this application you are going to need to download the necessary packages, set up the database, and run inquirer command. 
+To set up the data base you are going to want to go into the lib folder and go into the query.js file. At the top open the db constant. Once you see the whole object fill in your credentials. Then open the terminal in the db file, log into your mysql, then run source index.sql. You should be all set afterwards.
 
 ```
 nmp i
 ```
+```
+source index.sql
+```
+
 
 
 ## Usage
@@ -33,12 +38,20 @@ After forking, cloning, and running the nessecary commands in the terminal, a li
 
 ## Contribution Guidelines
 
-I looked into other peoples code to try and help me figure out some of my bugs. Their profiles will be linked below.
+I looked into other peoples code to try and help me figure out some of my bugs. Their profiles will be linked below:
+
+[Jason GitHub](https://github.com/jasonluxie)
+
+[Jessica GitHub](hhttps://github.com/jessicamcg)
+
 
 
 ## Tests
+Type this command after running the index.sql in the sql terminal and run some of the hidden functions within the query.js folder.
 
-No tests
+```
+source seeds.sql
+```
 
 
 ## Licence
