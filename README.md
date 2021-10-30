@@ -36,7 +36,9 @@ source index.sql
 
 After forking, cloning, and running the nessecary commands in the terminal, a list of questions should appear. fill out the answers to fit your team. When you're done press exit and then enter to close the application.
 
-[Application in action](undefined)
+![employee table working](./pictures/employeeTable.png)
+
+[Application in action](https://watch.screencastify.com/v/U2yAVvpmEtoirxn1qJq1)
 
 ## Contribution Guidelines
 
