@@ -24,7 +24,7 @@ To set up the data base you are going to want to go into the lib folder and go i
 ![sql login helper](./pictures/loginGuide.png)
 
 ```
-nmp i
+npm i
 ```
 ```
 source index.sql
